@@ -8,8 +8,9 @@ import Tree from "../assets/pixel.jpg";
 import New from "../assets/nwe.jpg";
 import black from "../assets/black.jpg";
 import Movie from "../assets/movi.jpg";
+import log from "../assets/tele.png"
 import sidebar from "./Sidebar";
-import fav from "./Fav.jsx";
+
 
 
 
@@ -34,7 +35,7 @@ function App() {
             <div className="upperContent">
               <div>
                 <MovieCard
-                fav={fav}
+               
                   backImage={New}
                   movieClass="movie"
                   cardContentClass="moveUp"
@@ -46,6 +47,8 @@ function App() {
               </div>
               <div>
                 <MovieCard
+                 logo={log}
+               
                   backImage={Captain}
                   movieClass=""
                   cardContentClass="moveUp"
@@ -58,7 +61,9 @@ function App() {
               
               <div>
                 <MovieCard
+               
                   backImage={Avenger}
+                  logo={log}
                   movieClass=""
                   cardContentClass="moveUp"
                   year="2019"
@@ -75,6 +80,7 @@ function App() {
               <div className="lowerContent">
                 <div>
                   <MovieCard
+                   logo={log}
                     backImage={Tree}
                     movieClass="small"
                     cardContentClass=""
@@ -87,6 +93,7 @@ function App() {
                 <div>
                   <MovieCard
                     backImage={Tree}
+                    logo={log}
                     movieClass="small"
                     cardContentClass=""
                     year="2019"
@@ -97,10 +104,11 @@ function App() {
                 </div>
                 <div>
                   <MovieCard
-                   image={fav}
+                 
                     backImage={black}
                     movieClass="small"
                     cardContentClass=""
+                    logo={log}
                     year="2019"
                     category="Movie"
                     pg="PG"
@@ -109,7 +117,7 @@ function App() {
                 </div>
                 <div>
                   <MovieCard
-                 image2={fav}
+                 
                     backImage={Movie}
                     movieClass="small"
                     cardContentClass=""
@@ -117,11 +125,12 @@ function App() {
                     category="Movie"
                     pg="PG"
                     movieName="Beyong Earth"
+                    logo={log}
                   />
                 </div>
                 <div>
                   <MovieCard
-                  image2={fav}
+                   logo={log}
                     backImage={Tree}
                     movieClass="small"
                     cardContentClass=""
