@@ -12,10 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
-  color: aquamarine;
-  margin-left: 110px;
-}
+
 
 .search-bar-input {
   margin-left: 110px;
@@ -115,14 +112,14 @@ input[type="search"] {
 }
 
 .whiteTitle {
-
+margin-left: 100px;
   
   font-size: 1.2em;
 }
 
 .cardContent {
   
-  gap: 10px;
+  gap: 10%;
 }
 
 .movie {
@@ -144,7 +141,7 @@ input[type="search"] {
 }
 
 .lowerContent {
-  width: 70vw;
+  width: 100%;
   display: inline-flex;
   margin-left: 100px;
   gap: 2%;
@@ -156,6 +153,9 @@ input[type="search"] {
   height: 30vh;
 display: inline-flex;
   flex-direction: column;
+}
+.small img{
+  width: 100%;
 }
 
 .moveUp {
